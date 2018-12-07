@@ -33,20 +33,24 @@ h2{
     font-size: 2.827em;
     margin: 1em 0; 
     padding-top: 10px;
+    color: #000;
 }
 h3{
     font-size: 1.999em;
+    font-style: italic;
 }
 blockquote{
     hanging-punctuation: first;
     text-indent: -0.5em
 }
-header h2{
-    font-family: 'Open Sans', sans-serif;
+header, h2{
+    font: italic;
+    font-family:'Libre Baskerville', serif;
     font-size: 2.35em;
     line-height: 1.5;
     margin-top: 0.1em;
     color:#333;
+    
 }
 /*--------STYLING LINKS------*/
 a{
@@ -106,8 +110,12 @@ images{
     display:block;
     margin: 4em auto;
     padding: 0;
-    max-width: 100%
+    max-width: 100%;
     
+    
+}
+img {
+    max-width: 100%;
 }
 /*---------------footer-----------*/
 footer{
@@ -141,7 +149,7 @@ hr{
 .connections a:link {
 	border-bottom: none;}
 
-.connections,img {
+.connections img {
 	opacity: 0.5;
     border: none;
 	}
@@ -177,7 +185,7 @@ th{
     text-transform: uppercase;
     font-weight: normal;
     text-align: left;
-    background: #c0f;
+    background: #c06;
     
 
     
