@@ -14,13 +14,13 @@ body{
     color:#333;
 }
 /*----------TYPOGRAPHY-----------*/
-h1,h2,h3{
+h1, h2, h3{
     font-weight:normal;
     color: #c06;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
 }
-p,li,blockquote{
+p, li, blockquote{
     margin-bottom: 1.5em;
     line-height: 1.4em;
 }
@@ -31,21 +31,22 @@ h1{
 }
 h2{
     font-size: 2.827em;
-    margin: 1em 0
+    margin: 1em 0; 
+    padding-top: 10px;
 }
 h3{
-    font-size: 1.999em
+    font-size: 1.999em;
 }
 blockquote{
-    hanging-punctuation: firt;
+    hanging-punctuation: first;
     text-indent: -0.5em
 }
 header h2{
     font-family: 'Open Sans', sans-serif;
-    font-style: italic;
     font-size: 2.35em;
+    line-height: 1.5;
     margin-top: 0.1em;
-    color:#333
+    color:#333;
 }
 /*--------STYLING LINKS------*/
 a{
@@ -98,7 +99,7 @@ blockquote{
     color:#777;
 }
 blockquote cite{
-    font-size: 0.75em
+    font-size: 0.75em;
 }
 /*-----------IMAGES--------------*/
 images{
@@ -140,13 +141,70 @@ hr{
 .connections a:link {
 	border-bottom: none;}
 
-.connections img {
+.connections,img {
 	opacity: 0.5;
     border: none;
 	}
 	
  .connections a:hover img {
-		opacity: 1.0;
-		border-bottom: none;
-		transition: all 0.3s ease-in-out; 
-				transform:scale(1.1);}	
+     opacity: 1.0;
+     border-bottom: none;transition: all 0.3s ease-in-out;
+     transform: scale(1.1);
+}	
+
+
+
+/*--------------TABLE------------*/
+
+table{
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+
+    
+}
+caption{
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+}
+
+th{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: #c0f;
+    
+
+    
+}
+th,td{
+    padding: 0.8em
+        
+}
+table,td{
+    background: #bfbebb;
+    border:2px solid#fff;
+    
+}
+
+
+
+
+/*---------------footer-----------*/
+footer{
+    text-align: center;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    padding: 2em 0
+        
+}
+hr{
+    margin: 3em 0;
+    height: 1px;
+    background-color: #c06;
+    
