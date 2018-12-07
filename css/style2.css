@@ -30,6 +30,7 @@ h1{
     margin-bottom: 0.1em 
 }
 h2{
+    font-style: italic;
     font-size: 2.827em;
     margin: 1em 0; 
     padding-top: 10px;
@@ -37,15 +38,16 @@ h2{
 }
 h3{
     font-size: 1.999em;
-    font-style: italic;
+   
+    
+    
 }
 blockquote{
     hanging-punctuation: first;
     text-indent: -0.5em
 }
-header, h2{
-    font: italic;
-    font-family:'Libre Baskerville', serif;
+header h2{
+
     font-size: 2.35em;
     line-height: 1.5;
     margin-top: 0.1em;
