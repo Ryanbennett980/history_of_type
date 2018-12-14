@@ -61,12 +61,12 @@ h3{
 /*----------------BLOCKQUOTE-----------*/
 blockquote{
     hanging-punctuation: first;
-    text-indent: -0.5em;
+    text-indent: -0.34em;
 }
 blockquote{
     
     padding: 1em 0 4em 0;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color:#999;
     font-style: italic;
 }
@@ -97,17 +97,18 @@ hr{
 
 /*-------------version 2 styling---------*/
         
-.version2 h2{ 
+.version2 { 
     font-family: 'Open Sans', sans-serif;
 }  
           
 .introcaps {
     text-transform: uppercase;
-
 } 
 
+.para {margin-top: -1.5em;
+    text-indent: 2em}
 /*-------------version 3 styling---------*/
-.version3 h1, h2, h3{
+.version3 {
     font-family: 'Arvo', serif;
 }         
 .version3 p {
@@ -116,4 +117,3 @@ hr{
 .version3 blockquote {
     font-family: 'Arvo', serif;
 } 
-
